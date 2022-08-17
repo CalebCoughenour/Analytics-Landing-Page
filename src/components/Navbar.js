@@ -1,5 +1,6 @@
 import { Container, Navbar } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const src = "https://cdn.icon-icons.com/icons2/1370/PNG/512/if-weather-29-2682822_90802.png";
 

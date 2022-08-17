@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import '../App.css';
 
 function PhotoCarousel() {
   return (
