@@ -11,8 +11,7 @@ const SignUp = () => {
   }, []);
 
   return(
-    <div>
-      <div className="signup-section">
+    <div className="signup-section">
         <div className='grids'>
           <div data-aos='fade-up'>
             <h1 className="signup-header">Sign-Up</h1>
@@ -21,7 +20,6 @@ const SignUp = () => {
             <BootForm />
           </div>
         </div>
-      </div>
     </div>
   );
 };
