@@ -14,7 +14,6 @@
   max-height: 35vh;
   box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
   border-radius: 10px 10px 10px 10px;
-
 }
 
 .grids { 
@@ -26,4 +25,22 @@
   margin: 20px;
   margin-top: 100px;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .boxes{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .boxes{
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .boxes{
+    height: 300px;
+  }
 }
