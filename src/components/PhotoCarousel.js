@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import '../App.css';
 
 function PhotoCarousel() {
   return (
@@ -33,7 +32,7 @@ function PhotoCarousel() {
           className="d-block w-100"
           src="https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Third slide"
-          style={{ height: '850px' }}
+          style={{ height: '850px'}}
         />
         <Carousel.Caption interval={2000}>
           <h3>Third slide label</h3>

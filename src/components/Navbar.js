@@ -1,7 +1,5 @@
 import { Container, Navbar } from 'react-bootstrap';
 
-
-
 const src = "https://cdn.icon-icons.com/icons2/1370/PNG/512/if-weather-29-2682822_90802.png";
 
 function NavbarWithLogo() {
@@ -11,7 +9,7 @@ function NavbarWithLogo() {
         <Container>
           <Navbar.Brand href="#home">
             <img
-              alt=""
+              alt="Half rainbow"
               src={src}
               width="30"
               height="30"
