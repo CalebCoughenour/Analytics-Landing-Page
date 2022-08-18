@@ -1,10 +1,13 @@
 import React from 'react';
 import VideoPlayer from '../VideoPlayer/VideoPlayer';
+import { VideoSectionWrapper } from './VideoSection.elements';
 
 const VideoSection = () => {
   return (
-    <>   
-      <VideoPlayer />
+    <> 
+      <VideoSectionWrapper>  
+        <VideoPlayer />
+      </VideoSectionWrapper>
     </>
   )
 };

@@ -1,0 +1,26 @@
+.boxes {
+  margin: 20px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(198, 177, 198);
+  overflow: hidden;
+  height: 500px;
+  max-height: 35vh;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.grids { 
+  max-width: 50%;
+  margin: auto;
+}
+
+.signup-header {
+  margin: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
