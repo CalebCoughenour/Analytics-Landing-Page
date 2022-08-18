@@ -1,0 +1,29 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+video{
+  height: 10vh;
+}
+
+.carousel-image {
+  height: 80vh;
+  width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-next-icon, .carousel-control-prev-icon  {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-image{
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-image{
+    height: 30vh;
+  }
+}
+
