@@ -5,9 +5,9 @@ const src = "https://cdn.icon-icons.com/icons2/1370/PNG/512/if-weather-29-268282
 function NavbarWithLogo() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg='dark' variant='dark' >
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" style={{ fontWeight: 'bolder', color: 'rgba(198, 177, 198)'}}>
             <img
               alt="Half rainbow"
               src={src}

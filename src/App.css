@@ -16,11 +16,6 @@ video{
   width: 100%;
 }
 
-.carousel-control-next-icon  {
-  display: none;
-  background-image: none;
-}
-
 @media screen and (max-width: 800px) {
   .carousel-image{
     height: 50vh;
