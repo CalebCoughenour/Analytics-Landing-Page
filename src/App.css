@@ -1,6 +1,11 @@
+#root {
+  background-color: #35a1ca;
+}
+
 body, html{
   margin: 0px;
   padding: 0px;
+  background-color: #35a1ca;
 }
 video{
   height: 10vh;
@@ -11,8 +16,9 @@ video{
   width: 100%;
 }
 
-.carousel-control-prev, .carousel-control-next, .carousel-control-next-icon, .carousel-control-prev-icon  {
+.carousel-control-next-icon  {
   display: none;
+  background-image: none;
 }
 
 @media screen and (max-width: 800px) {
