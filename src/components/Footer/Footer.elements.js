@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 export const FooterContainer = styled.div`
-margin-bottom: 200px;
+margin-bottom: 150px;
 background-color: #35a1ca;
 padding: 4rem 0 2rem 0;
 display: flex;
