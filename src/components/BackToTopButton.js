@@ -33,7 +33,8 @@ function BackToTopButton () {
           width: '40px',
           fontSize: '20px',
           backgroundColor: 'rgba(198, 177, 198)',
-          borderRadius: '10px'
+          borderRadius: '10px',
+          zIndex: '2'
         }}>^</button>
       )}
     </>
