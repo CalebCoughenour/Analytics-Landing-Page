@@ -7,7 +7,7 @@ function PhotoCarousel() {
       <Carousel.Item interval={2000}>
         <img
           className='carousel-image'
-          src="https://images.pexels.com/photos/590011/pexels-photo-590011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=660&dpr=1"
+          src="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="First slide"
         />
         <Carousel.Caption style={{ 
@@ -41,7 +41,7 @@ function PhotoCarousel() {
       <Carousel.Item>
         <img
           className='carousel-image'
-          src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=650&dpr=1"
+          src="https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Third slide"
         />
         <Carousel.Caption interval={2000} style={{ 
@@ -53,6 +53,23 @@ function PhotoCarousel() {
                 transform: 'translate(-50%, -50%)'
                }}>
           <h1>Third slide label</h1>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className='carousel-image'
+          src="https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Fourth slide"
+        />
+        <Carousel.Caption interval={2000} style={{ 
+                color: 'black',
+                fontWeight: 'bolder',
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)'
+               }}>
+          <h1>Forth slide label</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
