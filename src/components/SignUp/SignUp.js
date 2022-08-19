@@ -13,7 +13,7 @@ const SignUp = () => {
   return(
     <div className="signup-section">
         <div className='grids'>
-          <div data-aos='fade-up'>
+          <div data-aos='fade-down'>
             <h1 className="signup-header">Sign-Up</h1>
           </div>
           <div data-aos="fade-up" className='boxes'>
