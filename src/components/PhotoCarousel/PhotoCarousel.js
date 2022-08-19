@@ -19,6 +19,7 @@ function PhotoCarousel() {
                 transform: 'translate(-50%, -50%)'
                }}>
           <h1>First slide label</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
@@ -36,6 +37,7 @@ function PhotoCarousel() {
                 transform: 'translate(-50%, -50%)'
                }}>
           <h1>Second slide label</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -53,6 +55,7 @@ function PhotoCarousel() {
                 transform: 'translate(-50%, -50%)'
                }}>
           <h1>Third slide label</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -62,7 +65,7 @@ function PhotoCarousel() {
           alt="Fourth slide"
         />
         <Carousel.Caption interval={2000} style={{ 
-                color: 'black',
+                color: '#000000',
                 fontWeight: 'bolder',
                 position: 'absolute',
                 top: '50%',
@@ -70,6 +73,7 @@ function PhotoCarousel() {
                 transform: 'translate(-50%, -50%)'
                }}>
           <h1>Forth slide label</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
