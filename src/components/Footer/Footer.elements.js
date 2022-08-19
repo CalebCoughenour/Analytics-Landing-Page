@@ -48,7 +48,7 @@ color: #fff;
 }
 `;
 
-export const FooterLinkTitle = styled.h2`
+export const FooterLinkTitle = styled.h5`
 
 color: black;
 margin-bottom: 16px;

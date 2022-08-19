@@ -13,34 +13,36 @@ const Footer = () => {
   return (
     <div data-aos='fade-up'>
       <FooterContainer>
-        <FooterLinkTitle>Site Links</FooterLinkTitle>
         <FooterLinksContainer>
           <FooterLinksWrapper>
           <FooterLinksItems>
+            <FooterLinkTitle>About Us</FooterLinkTitle>
               <FooterLink to='#'>How it works</FooterLink>
               <FooterLink to='#'>Testimonials</FooterLink>
-              <FooterLink to='#'>Careers</FooterLink>
               <FooterLink to='#'>Investors</FooterLink>
-              <FooterLink to='#'>Terms of Service</FooterLink>
+              <FooterLink to='#'>FAQ</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
+              <FooterLinkTitle>Contact Us</FooterLinkTitle>
               <FooterLink to='#'>Customer Service</FooterLink>
               <FooterLink to='#'>Email</FooterLink>
-              <FooterLink to='#'>FAQ</FooterLink>
+              <FooterLink to='#'>Phone Number</FooterLink>
               <FooterLink to='#'>Careers</FooterLink>
             </FooterLinksItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
           <FooterLinksItems>
-              <FooterLink to='#'>Account</FooterLink>
+              <FooterLinkTitle>More Info</FooterLinkTitle>
+              <FooterLink to='#'>Subscribe</FooterLink>
+              <FooterLink to='#'>Newsletter</FooterLink>
               <FooterLink to='#'>Settings</FooterLink>
-              <FooterLink to='#'>Contact</FooterLink>
-              <FooterLink to='#'>Terms of Service</FooterLink>
+              <FooterLink to='#'>Reviews</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
-              <FooterLink to='#'>Account</FooterLink>
-              <FooterLink to='#'>Settings</FooterLink>
-              <FooterLink to='#'>Contact</FooterLink>
+              <FooterLinkTitle>Resources</FooterLinkTitle>
+              <FooterLink to='#'>Newsletter</FooterLink>
+              <FooterLink to='#'>Links</FooterLink>
+              <FooterLink to='#'>Site Map</FooterLink>
               <FooterLink to='#'>Terms of Service</FooterLink>
             </FooterLinksItems>
           </FooterLinksWrapper>
